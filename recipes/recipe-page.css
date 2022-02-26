@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #B7D1DA;
+    width: 80%;
+    min-width: 1024px;
+    margin: 102px auto;
+    border-radius: 25px;
+}
+
+.recipe-content {
+    padding: 50px;
+}
+
+body {
+    background-color: #E2E8DD;
+    color: #4E5340;
+    font-family: Ubuntu, sans-serif;
+}
+
+h1 {
+    color: #4E5340;
+    font-size: 4em;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+h2 {
+    color: #4E5340;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+p {
+    color: #697268;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #4E5340;
+    font-size: 2em;
+}
+
+ul, ol {
+    color: #697268;
+    font-size: 1.5em;
+    margin: 0;
+}

@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#main-content {
+    background-color: #5F4B8BFF;
+    display: flex;
+    flex-direction: column;
+    min-width: 1024px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 25px;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #E69A8DFF;
+    margin-bottom: 25px;
+}
+
+#recipes {
+    width: 100%;
+    background-color: #E69A8DFF;
+    color: #5F4B8BFF;
+    padding: 20px 40px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
